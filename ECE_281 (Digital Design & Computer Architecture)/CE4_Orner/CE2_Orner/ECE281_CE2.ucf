@@ -1,7 +1,0 @@
-# Leds
-NET "Led0"  LOC = "J14";
-NET "Led1"  LOC = "J15";
-
-# Switches
-NET "sw0" LOC = "G18";
-NET "sw1" LOC = "H18";

@@ -1,6 +1,0 @@
-[Inputs]
-clk_fast
-reset
-[Outputs]
-clk_slow
-[BiDir]

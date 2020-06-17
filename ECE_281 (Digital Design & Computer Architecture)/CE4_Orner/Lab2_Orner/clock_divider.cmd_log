@@ -1,2 +1,0 @@
-vhdtdtfi -lib work clock_divider.vhd -prj Lab2_Orner -o clock_divider.spl -module clock_divider -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e clock_divider.spl C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/clock_divider.sym 

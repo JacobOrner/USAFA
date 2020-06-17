@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab4_Orner/top_tb_isim_beh.exe" -prj "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab4_Orner/top_tb_beh.prj" "work.top_tb" 

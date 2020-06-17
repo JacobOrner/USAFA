@@ -1,5 +1,0 @@
-MODULE Orner_Lab1_Top
-	SUBMODULE Orner_display_en
-		INSTANCE XLXI_1
-	SUBMODULE Orner_Lab1_sseg_decoder
-		INSTANCE XLXI_2

@@ -1,9 +1,0 @@
-V3 3
-FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.vhd 2016/04/11.18:26:18 P.20131013
-EN work/alu 1460420782 \
-      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.vhd \
-      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_1164 1381692176 \
-      PB ieee/STD_LOGIC_SIGNED 1381692178
-AR work/alu/Behavioral 1460420783 \
-      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.vhd \
-      EN work/alu 1460420782

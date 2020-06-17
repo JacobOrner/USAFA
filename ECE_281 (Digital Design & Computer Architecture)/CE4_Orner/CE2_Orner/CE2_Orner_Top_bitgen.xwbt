@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\CE2_Orner\CE2_Orner_Top.ncd
-OUTFILE=C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\CE2_Orner\CE2_Orner_Top.bit
-FAMILY=Spartan3E
-PART=xc3s500e-4fg320
-WORKINGDIR=C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\CE2_Orner
-LICENSE=WebPack
-USER_INFO=211140390_0_0_818
