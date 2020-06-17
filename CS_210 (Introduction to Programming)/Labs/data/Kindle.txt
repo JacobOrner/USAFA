@@ -1,0 +1,6 @@
+The Grapes of Wrath|John Steinbeck|468|468
+Moby Dick|Herman Melville|927|100
+The Adventures of Huckleberry Finn|Mark Twain|466|466
+The Diary of a Young Girl|Anne Frank|304|250
+Without Remorse|Tom Clancy|652|500
+Red Storm Rising|Tom Clancy|656|328

@@ -1,0 +1,6 @@
+bathroom:yellow
+bedroom:cyan
+kitchen:blue
+yard:green
+garage:red
+den:white
