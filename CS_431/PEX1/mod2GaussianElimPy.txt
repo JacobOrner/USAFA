@@ -1,0 +1,21 @@
+def mod2GaussianElim(identMat,gaussMat):
+    for col in range(0,len(identMat)):
+        if gaussMat[col][col] == 0:
+           for row in range(col+1,len(identMat)):
+               if gaussMat[row][col] == 1:
+                   for k in range(0,len(identMat)):
+                       tmp = gaussMat[row][k]
+                       gaussMat[row][k] = gaussMat[col][k]
+                       gaussMat[col][k] = tmp
+                   for k in range(0,len(identMat)):
+                      tmp = identMat[row][k]
+                      identMat[row][k] = identMat[col][k]
+                      identMat[col][k] = tmp
+                   break
+        if gaussMat[col][col] == 1:
+            for row in range(col+1,len(identMat)):
+                if gaussMat[row][col] == 1:
+                    for k in range(0,len(identMat)):
+                        gaussMat[row][k] = (gaussMat[row][k]+gaussMat[col][k])%2
+                    for k in range(0,len(identMat)):
+                        identMat[row][k] = (identMat[row][k]+identMat[col][k])%2

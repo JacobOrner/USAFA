@@ -1,0 +1,44 @@
+// performs Gaussian elimination mod 2 on ROWSxCOLS matrix and ROWSxROWS identity matrix
+static void gaussianEliminationMod2(int[][] matrix, int[][] iMatrix, int ROWS, int COLS)
+{
+    for (int col = 0; col < COLS; col++) {
+        // first get a 1 in the current diagonal entry
+        if (matrix[col][col] == 0) {
+            for (int row = col+1; row < ROWS; row++) {
+                if (matrix[row][col] == 1) {
+                    // swap c[col][*] with c[row][*]
+                    for (int k = 0; k < COLS; k++) {
+                        int tmp = matrix[row][k];
+                        matrix[row][k] = matrix[col][k];
+                        matrix[col][k] = tmp;
+                    }
+                    // do the same for the identity matrix
+                    for (int k = 0; k < ROWS; k++) {
+                        int tmp = iMatrix[row][k];
+                        iMatrix[row][k] = iMatrix[col][k];
+                        iMatrix[col][k] = tmp;
+                    }
+                    // found a pivot and swapped, no need to check more rows
+                    break;
+                }
+            }
+        }
+        // if we found a 1 and did a swap, try to zero out everything below
+        if (matrix[col][col] == 1) {
+            for (int row = col+1; row < ROWS; row++) {
+                // if we've got a 1 below the pivot, add rows mod 2
+                // in both matrices
+                if (matrix[row][col] == 1) {
+                    for (int k = 0; k < COLS; k++) {
+                        matrix[row][k] = (byte)((matrix[row][k] +
+                                matrix[col][k]) % 2);
+                    }
+                    for (int k = 0; k < COLS; k++) {
+                        iMatrix[row][k] = (byte)((iMatrix[row][k] +
+                                iMatrix[col][k]) % 2);
+                    }
+                }
+            }
+        }
+    }
+}
