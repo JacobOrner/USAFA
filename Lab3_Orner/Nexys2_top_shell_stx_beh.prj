@@ -1,0 +1,4 @@
+vhdl isim_temp "nibble_to_sseg.vhd"
+vhdl isim_temp "nexys2_sseg.vhd"
+vhdl isim_temp "Lab3_clock_divider.vhd"
+vhdl isim_temp "Nexys2_top_shell.vhd"

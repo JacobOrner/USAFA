@@ -1,0 +1,57 @@
+V3 27
+FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_display_en.vhf 2016/02/02.13:47:36 P.20131013
+EN work/INV4_MXILINX_Orner_display_en 1454448258 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_display_en.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/INV4_MXILINX_Orner_display_en/BEHAVIORAL 1454448259 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_display_en.vhf \
+      EN work/INV4_MXILINX_Orner_display_en 1454448258 CP INV
+EN work/Orner_display_en 1454448260 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_display_en.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Orner_display_en/BEHAVIORAL 1454448261 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_display_en.vhf \
+      EN work/Orner_display_en 1454448260 CP INV4_MXILINX_Orner_display_en
+FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_sseg_decoder.vhf 2016/02/02.13:49:35 P.20131013
+EN work/Orner_Lab1_sseg_decoder 1454448262 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_sseg_decoder.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Orner_Lab1_sseg_decoder/BEHAVIORAL 1454448263 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_sseg_decoder.vhf \
+      EN work/Orner_Lab1_sseg_decoder 1454448262 CP LUT4 CP OR2 CP AND3 CP AND4 \
+      CP INV
+FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf 2016/02/02.14:24:06 P.20131013
+EN work/Orner_Lab1_sseg_decoder_MUSER_Orner_Lab1_Top 1454448250 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Orner_Lab1_sseg_decoder_MUSER_Orner_Lab1_Top/BEHAVIORAL 1454448251 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      EN work/Orner_Lab1_sseg_decoder_MUSER_Orner_Lab1_Top 1454448250 CP LUT4 \
+      CP OR2 CP AND3 CP AND4 CP INV
+EN work/INV4_MXILINX_Orner_Lab1_Top 1454448252 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/INV4_MXILINX_Orner_Lab1_Top/BEHAVIORAL 1454448253 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      EN work/INV4_MXILINX_Orner_Lab1_Top 1454448252 CP INV
+EN work/Orner_display_en_MUSER_Orner_Lab1_Top 1454448254 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Orner_display_en_MUSER_Orner_Lab1_Top/BEHAVIORAL 1454448255 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      EN work/Orner_display_en_MUSER_Orner_Lab1_Top 1454448254 \
+      CP INV4_MXILINX_Orner_Lab1_Top
+EN work/Orner_Lab1_Top 1454448256 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Orner_Lab1_Top/BEHAVIORAL 1454448257 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.vhf \
+      EN work/Orner_Lab1_Top 1454448256 CP Orner_display_en_MUSER_Orner_Lab1_Top \
+      CP Orner_Lab1_sseg_decoder_MUSER_Orner_Lab1_Top

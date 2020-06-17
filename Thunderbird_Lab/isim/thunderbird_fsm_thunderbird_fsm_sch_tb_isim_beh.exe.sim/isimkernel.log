@@ -1,0 +1,29 @@
+Command line:
+   thunderbird_fsm_thunderbird_fsm_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52292
+
+Tue Mar 01 21:46:39 2016
+
+
+ Elaboration Time: 0.1716 sec
+
+ Current Memory Usage: 681.464 Meg
+
+ Total Signals          : 210
+ Total Nets             : 73
+ Total Signal Drivers   : 44
+ Total Blocks           : 43
+ Total Primitive Blocks : 40
+ Total Processes        : 42
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 559
+Total Line Count : 66
+
+ Total Simulation Time: 0.265202 sec
+
+ Current Memory Usage: 996.037 Meg
+
+Tue Mar 01 21:47:09 2016
+

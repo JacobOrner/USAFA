@@ -1,0 +1,29 @@
+Command line:
+   Orner_Lab1_sseg_decoder_Orner_Lab1_sseg_decoder_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52410
+
+Tue Feb 02 13:49:46 2016
+
+
+ Elaboration Time: 0.218401 sec
+
+ Current Memory Usage: 681.775 Meg
+
+ Total Signals          : 100
+ Total Nets             : 41
+ Total Signal Drivers   : 16
+ Total Blocks           : 21
+ Total Primitive Blocks : 19
+ Total Processes        : 13
+ Total Traceable Variables  : 137
+ Total Scalar Nets and Variables : 4950
+Total Line Count : 63
+
+ Total Simulation Time: 0.218401 sec
+
+ Current Memory Usage: 996.348 Meg
+
+Tue Feb 02 13:50:23 2016
+

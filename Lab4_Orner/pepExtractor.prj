@@ -1,0 +1,2 @@
+work	"../Lab4/alu.vhd"
+work	"../Lab4/mips_combo.vhd"

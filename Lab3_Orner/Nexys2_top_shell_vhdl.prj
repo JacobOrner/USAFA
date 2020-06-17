@@ -1,0 +1,6 @@
+vhdl work "C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\Lab3_Orner\nibble_to_sseg.vhd"
+vhdl work "C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\Lab3_Orner\nexys2_sseg.vhd"
+vhdl work "C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\Lab3_Orner\MooreElevatorController_Shell.vhd"
+vhdl work "C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\Lab3_Orner\led_to_sseg.vhd"
+vhdl work "C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\Lab3_Orner\Lab3_clock_divider.vhd"
+vhdl work "C:\Users\C18Jacob.Orner\Documents\Schoolwork\Spring_2016\ECE_281\Labs_and_CEs\Lab3_Orner\Nexys2_top_shell.vhd"

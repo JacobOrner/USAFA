@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/thunderbird_fsm_thunderbird_fsm_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="thunderbird_fsm_thunderbird_fsm_sch_tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/thunderbird_fsm_thunderbird_fsm_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/thunderbird_fsm_thunderbird_fsm_sch_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/thunderbird_fsm_thunderbird_fsm_sch_tb/left" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">left</obj_property>
+      <obj_property name="ObjectShortName">left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/thunderbird_fsm_thunderbird_fsm_sch_tb/right" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">right</obj_property>
+      <obj_property name="ObjectShortName">right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/thunderbird_fsm_thunderbird_fsm_sch_tb/lights_l" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lights_l[2:0]</obj_property>
+      <obj_property name="ObjectShortName">lights_l[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/thunderbird_fsm_thunderbird_fsm_sch_tb/lights_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lights_r[2:0]</obj_property>
+      <obj_property name="ObjectShortName">lights_r[2:0]</obj_property>
+   </wvobject>
+</wave_config>

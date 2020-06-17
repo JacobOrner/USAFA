@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.syr" 
+netgen -intstyle ise -ar Structure -tm alu -w -dir netgen/synthesis -ofmt vhdl -sim alu.ngc alu_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.syr" 
+netgen -intstyle ise -ar Structure -tm alu -w -dir netgen/synthesis -ofmt vhdl -sim alu.ngc alu_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.syr" 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE4_Orner/alu.syr" 

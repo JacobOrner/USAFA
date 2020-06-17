@@ -1,0 +1,17 @@
+# thunderbird_fsm led displays
+NET "Led<0>" LOC = "J14";
+NET "Led<1>" LOC = "J15";
+NET "Led<2>" LOC = "K15";
+NET "Led<3>" LOC = "K14";
+NET "Led<4>" LOC = "E17";
+NET "Led<5>" LOC = "P15";
+
+# Switches, sw0 and sw1 are resets, sw6 and sw7 are the left and right turn signals, respectively.
+NET "sw2" LOC = "K18";
+NET "sw3" LOC = "K17";
+NET "sw6" LOC = "N17";
+NET "sw7" LOC = "R17";
+
+# Assigning the FPGA clock to the clk input
+NET "clk" LOC = B8;
+
