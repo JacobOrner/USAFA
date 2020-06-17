@@ -1,0 +1,475 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: orner_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "orner_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "orner_top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : orner_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/clock_divider.vhd" in Library work.
+Architecture horrible_method of Entity clock_divider is up to date.
+Compiling vhdl file "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.vhf" in Library work.
+Entity <and6_mxilinx_orner_top> compiled.
+Entity <and6_mxilinx_orner_top> (Architecture <behavioral>) compiled.
+Entity <thunderbird_fsm_muser_orner_top> compiled.
+Entity <thunderbird_fsm_muser_orner_top> (Architecture <behavioral>) compiled.
+Entity <orner_top> compiled.
+Entity <orner_top> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/thunderbird_fsm.vhf" in Library work.
+Architecture behavioral of Entity and6_mxilinx_thunderbird_fsm is up to date.
+Architecture behavioral of Entity thunderbird_fsm is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <orner_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <thunderbird_fsm_MUSER_orner_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clock_divider> in library <work> (architecture <horrible_method>).
+
+Analyzing hierarchy for entity <AND6_MXILINX_orner_top> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <orner_top> in library <work> (Architecture <behavioral>).
+Entity <orner_top> analyzed. Unit <orner_top> generated.
+
+Analyzing Entity <thunderbird_fsm_MUSER_orner_top> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <XLXI_1> in unit <thunderbird_fsm_MUSER_orner_top>.
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <thunderbird_fsm_MUSER_orner_top>.
+    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <thunderbird_fsm_MUSER_orner_top>.
+    Set user-defined property "HU_SET =  XLXI_14_0" for instance <XLXI_14> in unit <thunderbird_fsm_MUSER_orner_top>.
+Entity <thunderbird_fsm_MUSER_orner_top> analyzed. Unit <thunderbird_fsm_MUSER_orner_top> generated.
+
+Analyzing Entity <AND6_MXILINX_orner_top> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_93> in unit <AND6_MXILINX_orner_top>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_94> in unit <AND6_MXILINX_orner_top>.
+Entity <AND6_MXILINX_orner_top> analyzed. Unit <AND6_MXILINX_orner_top> generated.
+
+Analyzing Entity <clock_divider> in library <work> (Architecture <horrible_method>).
+Entity <clock_divider> analyzed. Unit <clock_divider> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock_divider>.
+    Related source file is "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/clock_divider.vhd".
+    Found 24-bit up counter for signal <clk_bus>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <clock_divider> synthesized.
+
+
+Synthesizing Unit <AND6_MXILINX_orner_top>.
+    Related source file is "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <AND6_MXILINX_orner_top> synthesized.
+
+
+Synthesizing Unit <thunderbird_fsm_MUSER_orner_top>.
+    Related source file is "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.vhf".
+Unit <thunderbird_fsm_MUSER_orner_top> synthesized.
+
+
+Synthesizing Unit <orner_top>.
+    Related source file is "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.vhf".
+Unit <orner_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 24-bit up counter                                     : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <orner_top> ...
+
+Optimizing unit <AND6_MXILINX_orner_top> ...
+
+Optimizing unit <thunderbird_fsm_MUSER_orner_top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block orner_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 27
+ Flip-Flops                                            : 27
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : orner_top.ngr
+Top Level Output File Name         : orner_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 107
+#      AND2                        : 7
+#      AND3                        : 6
+#      AND4                        : 4
+#      AND5                        : 2
+#      GND                         : 2
+#      INV                         : 9
+#      LUT1                        : 23
+#      MUXCY                       : 23
+#      OR2                         : 3
+#      OR3                         : 3
+#      VCC                         : 1
+#      XORCY                       : 24
+# FlipFlops/Latches                : 27
+#      FD                          : 3
+#      FDC                         : 24
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      IBUF                        : 4
+#      OBUF                        : 6
+# Others                           : 2
+#      FMAP                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       14  out of   4656     0%  
+ Number of Slice Flip Flops:             27  out of   9312     0%  
+ Number of 4 input LUTs:                 32  out of   9312     0%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    232     4%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 24    |
+XLXI_6/clk_bus_23                  | NONE(XLXI_1/XLXI_3)    | 3     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+sw7                                | IBUF                   | 24    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.591ns (Maximum Frequency: 151.722MHz)
+   Minimum input arrival time before clock: 6.779ns
+   Maximum output required time after clock: 8.218ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.705ns (frequency: 212.540MHz)
+  Total number of paths / destination ports: 300 / 24
+-------------------------------------------------------------------------
+Delay:               4.705ns (Levels of Logic = 24)
+  Source:            XLXI_6/clk_bus_1 (FF)
+  Destination:       XLXI_6/clk_bus_23 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: XLXI_6/clk_bus_1 to XLXI_6/clk_bus_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.591   0.595  XLXI_6/clk_bus_1 (XLXI_6/clk_bus_1)
+     LUT1:I0->O            1   0.704   0.000  XLXI_6/Mcount_clk_bus_cy<1>_rt (XLXI_6/Mcount_clk_bus_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_6/Mcount_clk_bus_cy<1> (XLXI_6/Mcount_clk_bus_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<2> (XLXI_6/Mcount_clk_bus_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<3> (XLXI_6/Mcount_clk_bus_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<4> (XLXI_6/Mcount_clk_bus_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<5> (XLXI_6/Mcount_clk_bus_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<6> (XLXI_6/Mcount_clk_bus_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<7> (XLXI_6/Mcount_clk_bus_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<8> (XLXI_6/Mcount_clk_bus_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<9> (XLXI_6/Mcount_clk_bus_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<10> (XLXI_6/Mcount_clk_bus_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<11> (XLXI_6/Mcount_clk_bus_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<12> (XLXI_6/Mcount_clk_bus_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<13> (XLXI_6/Mcount_clk_bus_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<14> (XLXI_6/Mcount_clk_bus_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<15> (XLXI_6/Mcount_clk_bus_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<16> (XLXI_6/Mcount_clk_bus_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<17> (XLXI_6/Mcount_clk_bus_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<18> (XLXI_6/Mcount_clk_bus_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<19> (XLXI_6/Mcount_clk_bus_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<20> (XLXI_6/Mcount_clk_bus_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<21> (XLXI_6/Mcount_clk_bus_cy<21>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_6/Mcount_clk_bus_cy<22> (XLXI_6/Mcount_clk_bus_cy<22>)
+     XORCY:CI->O           1   0.804   0.000  XLXI_6/Mcount_clk_bus_xor<23> (Result<23>)
+     FDC:D                     0.308          XLXI_6/clk_bus_23
+    ----------------------------------------
+    Total                      4.705ns (4.110ns logic, 0.595ns route)
+                                       (87.4% logic, 12.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_6/clk_bus_23'
+  Clock period: 6.591ns (frequency: 151.722MHz)
+  Total number of paths / destination ports: 22 / 3
+-------------------------------------------------------------------------
+Delay:               6.591ns (Levels of Logic = 5)
+  Source:            XLXI_1/XLXI_1 (FF)
+  Destination:       XLXI_1/XLXI_2 (FF)
+  Source Clock:      XLXI_6/clk_bus_23 rising
+  Destination Clock: XLXI_6/clk_bus_23 rising
+
+  Data Path: XLXI_1/XLXI_1 to XLXI_1/XLXI_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              13   0.591   0.983  XLXI_1/XLXI_1 (XLXI_1/XLXN_84)
+     INV:I->O              5   0.704   0.633  XLXI_1/XLXI_9 (XLXI_1/XLXN_12)
+     begin scope: 'XLXI_1/XLXI_14'
+     AND3:I1->O            1   0.704   0.420  I_36_69 (I35)
+     AND4:I3->O            1   0.704   0.420  I_36_85 (O_DUMMY)
+     end scope: 'XLXI_1/XLXI_14'
+     OR3:I2->O             1   0.704   0.420  XLXI_1/XLXI_12 (XLXI_1/XLXN_19)
+     FD:D                      0.308          XLXI_1/XLXI_2
+    ----------------------------------------
+    Total                      6.591ns (3.715ns logic, 2.876ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_6/clk_bus_23'
+  Total number of paths / destination ports: 12 / 3
+-------------------------------------------------------------------------
+Offset:              6.779ns (Levels of Logic = 6)
+  Source:            sw6 (PAD)
+  Destination:       XLXI_1/XLXI_2 (FF)
+  Destination Clock: XLXI_6/clk_bus_23 rising
+
+  Data Path: sw6 to XLXI_1/XLXI_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  sw6_IBUF (sw6_IBUF)
+     INV:I->O              8   0.704   0.757  XLXI_1/XLXI_7 (XLXI_1/XLXN_8)
+     begin scope: 'XLXI_1/XLXI_14'
+     AND3:I2->O            1   0.704   0.420  I_36_69 (I35)
+     AND4:I3->O            1   0.704   0.420  I_36_85 (O_DUMMY)
+     end scope: 'XLXI_1/XLXI_14'
+     OR3:I2->O             1   0.704   0.420  XLXI_1/XLXI_12 (XLXI_1/XLXN_19)
+     FD:D                      0.308          XLXI_1/XLXI_2
+    ----------------------------------------
+    Total                      6.779ns (4.342ns logic, 2.437ns route)
+                                       (64.1% logic, 35.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_6/clk_bus_23'
+  Total number of paths / destination ports: 23 / 6
+-------------------------------------------------------------------------
+Offset:              8.218ns (Levels of Logic = 4)
+  Source:            XLXI_1/XLXI_1 (FF)
+  Destination:       Led<2> (PAD)
+  Source Clock:      XLXI_6/clk_bus_23 rising
+
+  Data Path: XLXI_1/XLXI_1 to Led<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              13   0.591   0.983  XLXI_1/XLXI_1 (XLXI_1/XLXN_84)
+     INV:I->O              1   0.704   0.420  XLXI_1/XLXI_31 (XLXI_1/XLXN_48)
+     AND2:I1->O            1   0.704   0.420  XLXI_1/XLXI_30 (XLXI_1/XLXN_47)
+     OR3:I1->O             1   0.704   0.420  XLXI_1/XLXI_28 (Led_2_OBUF)
+     OBUF:I->O                 3.272          Led_2_OBUF (Led<2>)
+    ----------------------------------------
+    Total                      8.218ns (5.975ns logic, 2.243ns route)
+                                       (72.7% logic, 27.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.88 secs
+ 
+--> 
+
+Total memory usage is 284812 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

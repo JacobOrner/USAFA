@@ -1,0 +1,3 @@
+vhdl work "thunderbird_fsm.vhf"
+vhdl work "clock_divider.vhd"
+vhdl work "orner_top.vhf"

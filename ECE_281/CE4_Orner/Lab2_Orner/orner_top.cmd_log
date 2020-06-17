@@ -1,0 +1,40 @@
+sch2sym -intstyle ise -family spartan3e -refsym orner_top C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.sch C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.sym 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o orner_top_map.ncd orner_top.ngd orner_top.pcf 
+par -w -intstyle ise -ol high -t 1 orner_top_map.ncd orner_top.ncd orner_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml orner_top.twx orner_top.ncd -o orner_top.twr orner_top.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f orner_top.ut orner_top.ncd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o orner_top_map.ncd orner_top.ngd orner_top.pcf 
+par -w -intstyle ise -ol high -t 1 orner_top_map.ncd orner_top.ncd orner_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml orner_top.twx orner_top.ncd -o orner_top.twr orner_top.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f orner_top.ut orner_top.ncd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o orner_top_map.ncd orner_top.ngd orner_top.pcf 
+par -w -intstyle ise -ol high -t 1 orner_top_map.ncd orner_top.ncd orner_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml orner_top.twx orner_top.ncd -o orner_top.twr orner_top.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f orner_top.ut orner_top.ncd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o orner_top_map.ncd orner_top.ngd orner_top.pcf 
+par -w -intstyle ise -ol high -t 1 orner_top_map.ncd orner_top.ncd orner_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml orner_top.twx orner_top.ncd -o orner_top.twr orner_top.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f orner_top.ut orner_top.ncd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o orner_top_map.ncd orner_top.ngd orner_top.pcf 
+par -w -intstyle ise -ol high -t 1 orner_top_map.ncd orner_top.ncd orner_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml orner_top.twx orner_top.ncd -o orner_top.twr orner_top.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f orner_top.ut orner_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/orner_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 orner_top.ngc orner_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o orner_top_map.ncd orner_top.ngd orner_top.pcf 
+par -w -intstyle ise -ol high -t 1 orner_top_map.ncd orner_top.ncd orner_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml orner_top.twx orner_top.ncd -o orner_top.twr orner_top.pcf -ucf Constraints.ucf 
+bitgen -intstyle ise -f orner_top.ut orner_top.ncd 

@@ -1,0 +1,41 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab4_Orner/top_tb_isim_beh.exe -prj C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab4_Orner/top_tb_beh.prj work.top_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab4_Orner/mips_combo.vhd" into library work
+Parsing VHDL file "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab4_Orner/top_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behave of entity maindec [maindec_default]
+Compiling architecture behave of entity aludec [aludec_default]
+Compiling architecture struct of entity controller [controller_default]
+Compiling package std_logic_signed
+Compiling architecture asynchronous of entity flopr [\flopr(32)\]
+Compiling architecture behave of entity adder [adder_default]
+Compiling architecture behave of entity sl2 [sl2_default]
+Compiling architecture behave of entity mux2 [\mux2(32)\]
+Compiling architecture behave of entity regfile [regfile_default]
+Compiling architecture behave of entity mux2 [\mux2(5)\]
+Compiling architecture behave of entity signext [signext_default]
+Compiling architecture behave of entity zeroext [zeroext_default]
+Compiling architecture behave of entity mux3 [mux3_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture struct of entity datapath [datapath_default]
+Compiling architecture struct of entity mips [mips_default]
+Compiling architecture behave of entity imem [imem_default]
+Compiling architecture behave of entity dmem [dmem_default]
+Compiling architecture test of entity top [top_default]
+Compiling architecture behavior of entity top_tb
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 44 VHDL Units
+Built simulation executable C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab4_Orner/top_tb_isim_beh.exe
+Fuse Memory Usage: 36972 KB
+Fuse CPU Usage: 951 ms

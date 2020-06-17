@@ -1,0 +1,24 @@
+V3 12
+FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_HA.vhf 2016/01/21.21:37:57 P.20131013
+EN work/CE2_Orner_HA 1453767098 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_HA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CE2_Orner_HA/BEHAVIORAL 1453767099 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_HA.vhf \
+      EN work/CE2_Orner_HA 1453767098 CP AND2 CP XOR2
+FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_Top.vhf 2016/01/21.21:37:57 P.20131013
+EN work/CE2_Orner_HA_MUSER_CE2_Orner_Top 1453767094 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_Top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CE2_Orner_HA_MUSER_CE2_Orner_Top/BEHAVIORAL 1453767095 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_Top.vhf \
+      EN work/CE2_Orner_HA_MUSER_CE2_Orner_Top 1453767094 CP AND2 CP XOR2
+EN work/CE2_Orner_Top 1453767096 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_Top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CE2_Orner_Top/BEHAVIORAL 1453767097 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/CE2_Orner/CE2_Orner_Top.vhf \
+      EN work/CE2_Orner_Top 1453767096 CP CE2_Orner_HA_MUSER_CE2_Orner_Top

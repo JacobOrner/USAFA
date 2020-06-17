@@ -1,0 +1,29 @@
+Command line:
+   Mealy_tb_Orner_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65297
+
+Mon Mar 14 12:25:00 2016
+
+
+ Elaboration Time: 0.187202 sec
+
+ Current Memory Usage: 681.366 Meg
+
+ Total Signals          : 13
+ Total Nets             : 13
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 374
+Total Line Count : 44
+
+ Total Simulation Time: 0.218402 sec
+
+ Current Memory Usage: 681.366 Meg
+
+Mon Mar 14 15:46:23 2016
+

@@ -1,0 +1,10 @@
+Command line:
+   thunderbird_fsm_thunderbird_fsm_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63038
+
+Thu Mar 03 08:02:24 2016
+
+
+ Elaboration Time: 0.249601 sec

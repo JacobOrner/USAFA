@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/thunderbird_fsm_thunderbird_fsm_sch_tb_isim_beh.exe" -prj "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab2_Orner/thunderbird_fsm_thunderbird_fsm_sch_tb_beh.prj" "work.thunderbird_fsm_thunderbird_fsm_sch_tb" 

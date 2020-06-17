@@ -1,0 +1,1 @@
+vhdtdtfi -prj Lab3_Orner -o C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab3_Orner/led_to_sseg.vhi -module led_to_sseg -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work led_to_sseg.vhd 

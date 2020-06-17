@@ -1,0 +1,17 @@
+V3 15
+FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab3_Orner/thunderbird_fsm.vhf 2016/03/01.15:56:16 P.20131013
+EN work/AND6_MXILINX_thunderbird_fsm 1456872979 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab3_Orner/thunderbird_fsm.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/AND6_MXILINX_thunderbird_fsm/BEHAVIORAL 1456872980 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab3_Orner/thunderbird_fsm.vhf \
+      EN work/AND6_MXILINX_thunderbird_fsm 1456872979 CP AND3 CP AND4 CP FMAP
+EN work/thunderbird_fsm 1456872981 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab3_Orner/thunderbird_fsm.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/thunderbird_fsm/BEHAVIORAL 1456872982 \
+      FL C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/Lab3_Orner/thunderbird_fsm.vhf \
+      EN work/thunderbird_fsm 1456872981 CP FD CP INV CP OR2 CP OR3 CP AND3 \
+      CP AND6_MXILINX_thunderbird_fsm CP AND4 CP AND2

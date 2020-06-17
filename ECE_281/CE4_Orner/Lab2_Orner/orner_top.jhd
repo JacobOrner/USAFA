@@ -1,0 +1,5 @@
+MODULE orner_top
+	SUBMODULE thunderbird_fsm
+		INSTANCE XLXI_1
+	SUBMODULE clock_divider
+		INSTANCE XLXI_6

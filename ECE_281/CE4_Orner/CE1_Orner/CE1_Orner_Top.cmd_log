@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring 2016/ECE 281/CE1_Orner/CE1_Orner_Top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring 2016/ECE 281/CE1_Orner/CE1_Orner_Top.syr" 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring 2016/ECE 281/Labs_and_CEs/CE1_Orner/CE1_Orner_Top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring 2016/ECE 281/Labs_and_CEs/CE1_Orner/CE1_Orner_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ECE281_CE1.ucf -p xc3s500e-fg320-4 "CE1_Orner_Top.ngc" CE1_Orner_Top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CE1_Orner_Top_map.ncd CE1_Orner_Top.ngd CE1_Orner_Top.pcf 
+par -w -intstyle ise -ol high -t 1 CE1_Orner_Top_map.ncd CE1_Orner_Top.ncd CE1_Orner_Top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CE1_Orner_Top.twx CE1_Orner_Top.ncd -o CE1_Orner_Top.twr CE1_Orner_Top.pcf -ucf ECE281_CE1.ucf 
+bitgen -intstyle ise -f CE1_Orner_Top.ut CE1_Orner_Top.ncd 
