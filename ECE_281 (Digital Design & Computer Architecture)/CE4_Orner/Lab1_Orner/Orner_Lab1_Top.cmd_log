@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/C18Jacob.Orner/Downloads/ECE281_Lab1.ucf -p xc3s500e-fg320-4 Orner_Lab1_Top.ngc Orner_Lab1_Top.ngd  
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/C18Jacob.Orner/Downloads/ECE281_Lab1.ucf -p xc3s500e-fg320-4 Orner_Lab1_Top.ngc Orner_Lab1_Top.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm Orner_Lab1_Top -w -dir netgen/translate -ofmt vhdl -sim Orner_Lab1_Top.ngd Orner_Lab1_Top_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/C18Jacob.Orner/Downloads/ECE281_Lab1.ucf -p xc3s500e-fg320-4 Orner_Lab1_Top.ngc Orner_Lab1_Top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/C18Jacob.Orner/Downloads/ECE281_Lab1.ucf -p xc3s500e-fg320-4 Orner_Lab1_Top.ngc Orner_Lab1_Top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/C18Jacob.Orner/Downloads/ECE281_Lab1.ucf -p xc3s500e-fg320-4 Orner_Lab1_Top.ngc Orner_Lab1_Top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/C18Jacob.Orner/Downloads/ECE281_Lab1.ucf -p xc3s500e-fg320-4 Orner_Lab1_Top.ngc Orner_Lab1_Top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Orner_Lab1_Top_map.ncd Orner_Lab1_Top.ngd Orner_Lab1_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Orner_Lab1_Top_map.ncd Orner_Lab1_Top.ncd Orner_Lab1_Top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Orner_Lab1_Top.twx Orner_Lab1_Top.ncd -o Orner_Lab1_Top.twr Orner_Lab1_Top.pcf 
+bitgen -intstyle ise -f Orner_Lab1_Top.ut Orner_Lab1_Top.ncd 
+xst -intstyle ise -ifn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.xst" -ofn "C:/Users/C18Jacob.Orner/Documents/Schoolwork/Spring_2016/ECE_281/Labs_and_CEs/ECE281_Lab1_Orner/Orner_Lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/C18Jacob.Orner/Downloads/ECE281_Lab1.ucf -p xc3s500e-fg320-4 Orner_Lab1_Top.ngc Orner_Lab1_Top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Orner_Lab1_Top_map.ncd Orner_Lab1_Top.ngd Orner_Lab1_Top.pcf 
+par -w -intstyle ise -ol high -t 1 Orner_Lab1_Top_map.ncd Orner_Lab1_Top.ncd Orner_Lab1_Top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Orner_Lab1_Top.twx Orner_Lab1_Top.ncd -o Orner_Lab1_Top.twr Orner_Lab1_Top.pcf 
+bitgen -intstyle ise -f Orner_Lab1_Top.ut Orner_Lab1_Top.ncd 
