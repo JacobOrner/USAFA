@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- xsd for class schedule -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="academicschedule">
+		<xs:complexType>
+			<xs:sequence minOccurs="4" maxOccurs="8">
+				<xs:element name="course">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="designator" type="xs:string"/>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="day" type="xs:string"/>
+							<xs:element name="period" type="xs:integer"/>
+							<xs:element name="instructor" type="xs:string"/>
+							<xs:element name="percentage" type="xs:float"/>
+						</xs:all>
+						<xs:attribute name="category"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0135)https://aetc.blackboard.com/bbcswebdav/pid-134751-dt-content-rid-396466_1/courses/CompSci-364-2017Spring/Lsn23-PageLayout-CSS-Demo.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>NCLS 2017 Registration</title>
+		<link type="text/css" rel="stylesheet" href="./CSL.css">
+				<!-- validationFeedback <div> area for error messages will have bold red text -->
+		<style type="text/css"> 
+			#validationFeedback { color: red; font-weight: bold }  
+		</style>
+		<script type="text/javascript">
+		
+		/* This is where the JavaScript code resides (can also put it in-line with Body or as separate .js file) */
+			
+			function Validate_Info_Form_Data()   // This function gets called when form is submitted
+			{
+				var errorsWithForm = false;
+				
+				// create a variable to hold the input text value provided on the form
+				var firstName = document.forms["registrationForm"]["firstName"].value;
+				var lastName = document.forms["registrationForm"]["lastName"].value;
+				var emailAddress = document.forms["registrationForm"]["emailAddress"].value;
+				var classYear = document.forms["registrationForm"]["classYear"].value;
+				var squadron = document.forms["registrationForm"]["squadron"].value;
+				if (firstName==null || firstName=="",lastName==null || lastName=="",emailAddress==null || emailAddress=="",classYear==null || classYear=="", squadron==null || squadron=="")
+				{
+					alert("Please Fill All Required Fields");
+					if (firstName==null || firstName==""){alert("First Name Field Blank")}
+					if (lastName==null || lastName==""){alert("Last Name Field Blank")}
+					if (emailAddress==null || emailAddress==""){alert("Email Field Blank")}
+					if (classYear==null || classYear==""){alert("Class Year Field Blank")}
+					if (squadron==null || squadron==""){alert("Squadron Field Blank")}
+					return false;
+				}
+				
+				var nameRegExp = new RegExp("^[a-zA-z]{0,50}$");
+				var emailRegExp = new RegExp("^(?:[0-9a-zA-Z-_.]+[@][0-9a-zA-Z-_.]+)$")
+				var ageRegExp = new RegExp("^[1][7-9]|[2][0-9]$")
+				var classYearRegExp = new RegExp("^[201][7-9]|[2020]$")
+				var squadronRegExp = new RegExp("^{1,40}$")
+				
+				// Test our receivedValue string against the regular expression
+				errorsWithForm = nameRegExp.test(firstName);  
+				
+				// Update form feedback
+				if (errorsWithForm) 
+				{
+					document.getElementById('validationFeedback').innerHTML = "";
+					errorsWithForm = nameRegExp.test(lastName);
+					if (errorsWithForm)
+					{
+						document.getElementById('validationFeedback').innerHTML = "";
+						errorsWithForm = emailRegExp.test(emailAddress);
+						if (errorsWithForm)
+						{
+							document.getElementById('validationFeedback').innerHTML = "";
+							errorsWithForm = classYearRegExp.test(classYear);
+							if (errorsWithForm)
+							{
+								document.getElementById('validationFeedback').innerHTML = "";
+								errorsWithForm = squadronRegExp.test(squadron);
+								if(errorsWithForm)
+								{
+									document.getElementById('validationFeedback').innerHTML = "";
+								}
+								else
+								{
+									return true;
+								}
+							}
+							else
+							{
+								document.getElementById('validationFeedback').innerHTML = "ERROR: Invalid Input - Age does not match regular expression";
+							}
+						}
+						else
+						{
+							document.getElementById('validationFeedback').innerHTML = "ERROR: Invalid Input - Email address does not match regular expression";
+						}
+					}	
+					else
+					{
+						document.getElementById('validationFeedback').innerHTML = "ERROR: Invalid Input - Last name does not match regular expression";
+					}
+				}
+				else
+				{
+					document.getElementById('validationFeedback').innerHTML = "ERROR: Invalid Input - First name does not match regular expression";
+					
+				}
+				
+				// Check the results of this validation  (only 3 lines of code for a pretty detailed check)
+				alert("Regular expression test result was: " + errorsWithForm);
+				return false;
+			}
+		</script>
+		
+	</head>
+	<body id="registration">
+		<table border="0" width="100%">
+			<tbody>
+				<tr>
+					<td colspan="3"><div id="site_title"><br><center>NCLS</center><br></div></td>
+				</tr>
+				<tr>
+					<td id="header" width="33%"><center><div id="nav_entry"><a href="./index.html">Introduction</a></div></center></td>
+					<td id="header" width="33%"><center><div id="nav_entry"><a href="./speakers.html">Guest Speakers</a></div></center></td>
+					<td id="header" width="33%"><center><div id="nav_entry"><a href="./registration.html">Registration</a></div></center></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<div id="page_title">
+							<br><p></p><center>NCLS 2017 Registration</center><p></p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<div align="center">
+							<table border="0" cellpadding="3">
+								<form action="Demo.php" method="post" name="registrationForm" onsubmit="return Validate_Info_Form_Data()">
+									<h4>Enter data and click Submit to register</h4>
+									<div id="validationFeedback"></div>
+									First name: <input type="text" name="firstName" value="" maxlength="50"/></p>
+									Last name: <input type="text" name="lastName" value="" maxlength="50"/></p>
+									Email: <input type="text" name="emailAddress" /><p />
+									Class Year: <input type="text" name="classYear" /><p />
+									Squadron: <input type="text" name="squadron" /><p />
+									<input type="submit" value="Submit" />
+								</form>
+							</table>
+						</div>
+					</td>
+					<td></td>
+				</tr>	
+			</tbody>
+		</table>
+	</body>
+</html>

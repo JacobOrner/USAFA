@@ -1,0 +1,85 @@
+#site_title{
+	color: white;
+	background-color: #0000cc;
+	text-align: center;
+	font-family: 'Electrolize', Arial, sans-serif;
+	font-size: 50px;
+	line-height: 30px;
+	background-image: url('images/polaris_hall.jpg');
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+	background-size: 80px 80px;
+}
+
+#header{
+	color: white;
+	background-color: #0000cc;
+	text-align: center;
+	font-family: 'Electrolize', Arial, sans-serif;
+	font-size: 30px;
+}
+
+#index
+{
+	background: #cccccc ;
+	font-family: 'Electrolize', Arial, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+#speakers
+{	
+	background: #cccccc;
+	font-family: 'Electrolize', Arial, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+#registration
+{	
+	background: #cccccc;
+	font-family: 'Electrolize', Arial, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+h{
+	font-family: 'Electrolize', Arial, sans-serif;
+}
+
+li {
+	color: black;
+	font-family: 'Electrolize', Arial, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+}
+
+.content p{
+	color: white;
+	background: black;
+	display: inline-block;
+	padding: 5px;
+}
+
+a{	
+	border: 2px;
+	color:white;
+	text-decoration: none;
+}
+
+#partner_links{
+	color: black;
+	font-family: 'Electrolize', Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+#page_title{
+	color: black;
+	text-align:center;
+	font-family: 'Electrolize', Arial, sans-serif;
+	font-size: 30px;
+	line-height: 10px;
+}

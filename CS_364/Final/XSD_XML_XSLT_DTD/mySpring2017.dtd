@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT academicSchedule (course+)>
+<!ELEMENT course (designator, name, day, period, instructor, percentage)>
+<!ELEMENT designator (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT period (#PCDATA)>
+<!ELEMENT instructor (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>
+
+ <!ATTLIST course category CDATA #REQUIRED>

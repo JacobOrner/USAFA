@@ -1,0 +1,33 @@
+/* csl.css */
+/* for CS 364 PEX2 */
+/* author:  Steve Hadfield, 3/14/2011 */
+
+body
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Arial
+}
+
+#csl_site_title
+{
+	background-color: blue;
+	color: white;
+	font-size:  18pt;
+	font-weight: bold
+}
+
+#csl_navigation
+{
+	background-color: #C1C1C1;
+	color: black;
+	font-size: 14pt;
+	font-weight: medium
+}
+
+#csl_page_title
+{
+	color: blue;
+	font-size:  16pt;
+	font-weight: bold
+}

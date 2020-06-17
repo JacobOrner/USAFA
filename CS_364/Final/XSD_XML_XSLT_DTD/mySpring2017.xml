@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<academicschedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="academicschedule.xsd">
+	<course category="HISTORY">
+		<designator>History 300</designator>
+		<name>World History</name>
+		<day>M</day>
+		<period>1</period>
+		<instructor>Mr. Paul Seeling</instructor>
+		<percentage>97.75</percentage>
+	</course>
+	<course category="OS">
+		<designator>CompSci 483</designator>
+		<name>Operating Systems</name>
+		<day>M</day>
+		<period>2</period>
+		<instructor>Major Brault</instructor>
+		<percentage>100</percentage>
+	</course>
+	<course category="CYBER">
+		<designator>Cyber 473</designator>
+		<name>Cyber Upgrade Instructor</name>
+		<day>M</day>
+		<period>3</period>
+		<instructor>Captain Sonya</instructor>
+		<percentage>100</percentage>
+	</course>
+	<course category="COMBATIVES">
+		<designator>PhyEd 315G</designator>
+		<name>Combatives II</name>
+		<day>M</day>
+		<period>6</period>
+		<instructor>Mr. Horton</instructor>
+		<percentage>100</percentage>
+	</course>
+	<course category="BIO">
+		<designator>Biology 315</designator>
+		<name>Intro to Biology w/ Lab</name>
+		<day>T</day>
+		<period>1</period>
+		<instructor>Lt. Col. Harris</instructor>
+		<percentage>100</percentage>
+	</course>
+	<course category="STATS">
+		<designator>Math 356</designator>
+		<name>Prob/Stats: Engr/Sci</name>
+		<day>T</day>
+		<period>3</period>
+		<instructor>Lt. Col. Hill</instructor>
+		<percentage>86.52</percentage>
+	</course>
+	<course category="DB">
+		<designator>CompSci 364</designator>
+		<name>Info Storage & Retrieval</name>
+		<day>T</day>
+		<period>6</period>
+		<instructor>Dr. Sambasivam</instructor>
+		<percentage>87.48</percentage>
+	</course>
+	<course category="RE">
+		<designator>CompSci 360</designator>
+		<name>Software Reverse Engineering</name>
+		<day>T</day>
+		<period>7</period>
+		<instructor>Captain McMinn</instructor>
+		<percentage>88.5</percentage>
+	</course>
+</academicschedule>
