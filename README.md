@@ -1,8 +1,8 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**Jacob Orner**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+This repository contains the various programming assignments and projects I completed during my time as a cadet.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Each folder represents a different course that was contained as part of the curriculum. 
 
 ---
 
